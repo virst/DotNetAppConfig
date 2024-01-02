@@ -11,16 +11,21 @@
 		<Title>Dot Net App Config</Title>
 		<Authors>M.Vi</Authors>
 		<Description>A library for parsing and loading application settings from the command line, environment variables or files.</Description>
-		<PackageProjectUrl>https://github.com/virst/DotNetConfig</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/virst/DotNetAppConfig</PackageProjectUrl>
 		<PackageIcon>config.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/virst/DotNetConfig</RepositoryUrl>
+		<RepositoryUrl>https://github.com/virst/DotNetAppConfig</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<None Include="..\config.png">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE.txt">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
 		</None>
 		<None Include="..\README.md">
 			<Pack>True</Pack>
