@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyVersion>0.2.5.0</AssemblyVersion>
+		<FileVersion>0.2.5.0</FileVersion>
+		<Version>0.2.8</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Dot Net App Config</Title>
+		<Authors>M.Vi</Authors>
+		<Description>A library for parsing and loading application settings from the command line, environment variables or files.</Description>
+		<PackageProjectUrl>https://github.com/virst/DotNetConfig</PackageProjectUrl>
+		<PackageIcon>config.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/virst/DotNetConfig</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\config.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

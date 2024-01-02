@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Demo2": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "VAL": "12",
+        "FLOAT_VAL": "3.14",
+        "RULE1": "TRUE"
+      }
+    }
+  }
+}

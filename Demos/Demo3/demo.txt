@@ -1,0 +1,4 @@
+Val = 10
+FloatVal = 1.56
+Name = Gin
+Rule2
