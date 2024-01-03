@@ -1,4 +1,4 @@
-﻿using DotNetConfig;
+﻿using DotNetAppConfig;
 
 namespace Demo2
 {
